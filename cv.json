@@ -1,0 +1,266 @@
+{
+  "basics": {
+    "name": "Jorge Gerardo Moreno Castillo",
+    "label": "Full Stack Developer",
+    "image": "/me-j.webp",
+    "email": "jkokecas1@gmail.com",
+    "phone": "8717364110",
+    "url": "",
+    "summary": "+3 años de experiencia como Desarrollador Web. Actualmente yo desarollador web. Vivo en Torreo, Coahuila, Mexico. He trabajado en diferentes entornos: desde el desarrollo, testeo, y calidad del codigo.",
+    "location": {
+      "address": "",
+      "postalCode": "08820",
+      "city": "Torreon",
+      "countryCode": "ES",
+      "region": "Mexico"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "jorgeDev",
+        "url": "https://github.com/jkokecas1"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Evidence Technology",
+      "position": "Desarollador Full Stak",
+      "startDate": "2023-02-01",
+      "endDate": null,
+      "summary": "Formo parte del equipo de desarrollo de la plataforma CRM de EvidenceTech, participando activamente en la implementación, refactorización y mejora continua del sistema. Entre mis principales funciones destacan:",
+      "list":[
+        "Desarrollo y mantenimiento de nuevas funcionalidades, así como actualización de módulos existentes siguiendo estándares de calidad establecidos.",
+        "Ejecución de pruebas unitarias, de integración y end-to-end (E2E) para la automatización de procesos y aseguramiento de la calidad del software.",
+        "Optimización y modernización de funciones heredadas para mejorar el rendimiento y la mantenibilidad del sistema.",
+        "Participación en el desarrollo del módulo de financiamiento, contribuyendo a la expansión de las capacidades de la plataforma."
+      ],
+      "highlights"  : [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "AW Software",
+      "position": "Junior Developer",
+      "startDate": "2021-01-30",
+      "endDate": "2023-01-30",
+      "summary": "Desarrollé una plataforma multiplataforma enfocada en optimizar y agilizar el proceso de atención en restaurantes. La implementación móvil fue escalada exitosamente a producción, mejorando la eficiencia operativa en la atención al cliente.",
+      "highlights": [
+        "Started the company"
+      ]
+    }
+  ],
+  "volunteer": [{
+    "organization": "Organization",
+    "position": "Volunteer",
+    "url": "https://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Description…",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education": [{
+    "institution": "Instituto Tecnológico de La Laguna",
+    "url": "https://www.uoc.edu/portal/es/index.html",
+    "area": "Ingeniero de Software",
+    "studyType": "Bachelor",
+    "startDate": "2018-06-01",
+    "endDate": "2023-12-01",
+    "score": "4.0",
+    "courses": [
+    ]
+  }],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "certificates": [{
+    "name": "Certificate",
+    "date": "2021-11-07",
+    "issuer": "Company",
+    "url": "https://certificate.com"
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "url": "https://publication.com",
+    "summary": "Description…"
+  }],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "Php",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Java",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "C#",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+      ]
+    },
+    {
+      "name": "Vue",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference…"
+  }],
+  "projects": [
+    {
+      "name": "Tienda Online",
+      "isActive": true,
+      "description": "Representacion de tienda de ropa online.",
+      "highlights": [
+        "Django",
+        "Py",
+        "Deploy en Pythonanywhere"
+      ],
+      "url": "https://jrider871.pythonanywhere.com/",
+      "github": "https://github.com/jkokecas1/store-online"
+    },
+    {
+      "name": "Recoge Moendas Juego",
+      "isActive": true,
+      "description": "El juego permite al jugador moverse en un escenario en el que recolecta monedas en un laberito",
+      "highlights": [
+        "OpenGl",
+        "Java",
+        "LibGDX"
+      ],
+      "github": "https://github.com/jkokecas1/RecolectorDeMonedass"
+    },
+    {
+      "name": "JavaScript guía para programar",
+      "isActive": true,
+      "description":  "Guía para comenzar a programar en JavaScript, con múltiples ejemplos y explicaciones detalladas del lenguaje.",
+      "highlights": [
+        "JavaScript",
+        "Book in Apple"
+      ],
+      "url": "https://codember.dev"
+    },
+    {
+      "name": "appBackPack",
+      "isActive": true,
+      "description": "App educativa diseñada para el aprendizaje de niños, incorporando juegos en diversas pantallas que promueven tanto el entretenimiento y aprendizaje.",
+      "highlights": [
+        "Android",
+        "Java",
+        "Deploy Android Store"
+      ],
+      "github": "https://github.com/jkokecas1/AndroidStudio-appBackPack"
+    },
+    {
+      "name": "appLigaFutBol",
+      "isActive": true,
+      "description": "App enfocada en el adimistracion de equipos de fut bol",
+     "highlights": [
+        "Android",
+        "Java",
+        "Deploy Android Store"
+      ],
+      "url": "https://pruebastecnicas.com",
+      "github": "https://github.com/jkokecas1/AndroidStudio-appLigaFutbol"
+    }
+  ]
+}

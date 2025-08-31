@@ -1,0 +1,101 @@
+---
+export interface Props {
+  title: string;
+  editLabel?: string;
+  deleteLabel?: string;
+  show?: boolean;
+}
+
+const { title, editLabel = "Editar", deleteLabel = "Eliminar", show = true } = Astro.props;
+let isEditing = false;
+
+function toggleEdit() {
+  isEditing = !isEditing;
+}
+---
+
+<section>
+  {show && (
+    <div class="editable-div">
+      {isEditing ? (
+        <input type="text" value={title} class="title-input" />
+      ) : (
+        <h2>{title}</h2>
+      )}
+
+      <!-- Botones de acción -->
+      <div class="action-buttons">
+        <button class="action-button" onclick="toggleEdit">
+          {isEditing ? "Guardar" : editLabel}
+        </button>
+        <button class="action-button" onclick="alert('Eliminando...')">
+          {deleteLabel}
+        </button>
+      </div>
+    </div>
+  )}
+  
+  <slot />
+</section>
+
+<style>
+section {
+    max-width: 700px;
+    margin: 0 auto 10px;
+  }
+
+  h2 {
+    /* margin-bottom: 8px; */
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 1.5rem;
+  }
+
+  @media (width <= 700px) {
+    section {
+      margin-bottom: 38px;
+    }
+  }
+    /* Estilos del contenedor */
+    .editable-div {
+        position: relative;
+        /* width: 200px; */
+        /* height: 100px; */
+        /* background-color: #f0f0f0; */
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        /* border: 1px solid #ddd; */
+        border-radius: 8px;
+    }
+
+    /* Ocultar los botones por defecto */
+    .action-buttons {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        display: none;
+        gap: 5px;
+    }
+
+    /* Mostrar botones al pasar el ratón */
+    .editable-div:hover .action-buttons {
+        display: flex;
+    }
+
+    /* Estilo de los botones */
+    .action-button {
+        background-color: #007bff;
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        font-size: 12px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+    /* Cambiar color de fondo en hover */
+    .action-button:hover {
+        background-color: #0056b3;
+    }
+</style>
